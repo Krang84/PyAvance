@@ -14,4 +14,5 @@ metro_areas=[('Tokyo','JP',36.9333,(35.565656,139.46565565)),
              ('New York-Newark','US',20.104,(40.808611,-74.0233665)),
              ('Sao Paulo','BR',19.649,(-23.2222366,-46.233366)),]
 
-for i,j,k,(l,m) in metr
+for i,j,k,l in metro_areas:
+  print(i,j,k,l)
