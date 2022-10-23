@@ -16,3 +16,10 @@ metro_areas=[('Tokyo','JP',36.9333,(35.565656,139.46565565)),
 
 for i,j,k,l in metro_areas:
   print(i,j,k,l)
+
+  
+ for i,j,k,(lat, lon) in metro_areas:
+	if lon <=0:
+		print(i, " : ",lat, lon)
+  
+
