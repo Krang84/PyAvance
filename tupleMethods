@@ -1,0 +1,23 @@
+s = (1,2)
+s2=(3,4)
+
+s+s2
+s.__add__(s2)
+
+1 in s
+s.__contains__(1)
+
+s.count(3)
+
+s[1]
+s.__getitem__(p)
+
+s.index(3)
+
+s.__iter__()
+
+s.__len__()
+len(s)
+
+s.__mul__(n)
+
