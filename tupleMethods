@@ -20,4 +20,5 @@ s.__len__()
 len(s)
 
 s.__mul__(n)
+s*n
 
